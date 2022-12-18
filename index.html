@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script
+            src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="allcontainer">
+            <!-- <div class="btnParent"> -->
+            <!-- Next and previous buttons -->
+            <!-- <a id="prev">
+                    <img id="btn" src="/BTNLEFT.png" alt=""></a>
+                <a id="next">
+                    <img id="btn" src="/BTNRIGHT.png" alt=""></a>
+            </div> -->
+            <div id="cardcontainer">
+                <div class="fakeCard"></div>
+                <!--1-->
+                <div class="cardAnim">
+                    <lottie-player id="florian" src="/timeline_anim_1.json"
+                        loop autoplay></lottie-player>
+                    <p id="textcard">Florian est un brasseur breton.</p>
+                </div>
+                <!--2-->
+                <div class="cardAnim">
+                    <lottie-player id="florian" src="/timeline_anim_2.json"
+                        loop autoplay></lottie-player>
+                    <p id="textcard">Il commence sa ligne dans son garage.</p>
+                </div>
+                <!--3-->
+                <div class="cardAnim">
+                    <lottie-player id="florian" src="/timeline_anim_3.json"
+                        loop autoplay></lottie-player>
+                    <p id="textcard">Pas d’étiquette,une bouteille opaque,un
+                        fort degré
+                        d’alcool..
+                        Une vraie bière tradi!.
+                    </p>
+                </div>
+                <!--4-->
+                <div class="cardAnim">
+                    <lottie-player id="florian" src="/timeline_anim_4.json"
+                        loop
+                        autoplay></lottie-player>
+                    <p id="textcard">Il reçoit des proches pour des
+                        dégustations dans
+                        son
+                        garage et leurs retours sont unanimes :
+                        « Il faut commercialiser cette pépite ! »
+                    </p>
+                </div>
+                <div class="fakeCard"></div>
+                <div class="fakeCard"></div>
+                <div class="fakeCard"></div>
+                <div class="fakeCard"></div>
+            </div>
+            <!-- 
+            <div class="relative">
+                <div class="button">
+                    <div class="red">
+                        <img onclick="ChangeSlide(-1)" class="btnimg"
+                            src="/BTNLEFT.png" alt="">
+                    </div>
+                    <div class="green">
+                        <img onclick="ChangeSlide(1)" class="btnimg"
+                            src="/BTNRIGHT.png" alt="">
+                    </div>
+                </div>
+                <img id="sliding" class="imgset" src="/beer3.png" alt="">
+            </div> -->
+        </div>
+        <div class="btnParent">
+            <!-- Next and previous buttons -->
+            <a id="prev">
+                <img id="btn" src="/BTNLEFT.png" alt=""></a>
+            <a id="next">
+                <img id="btn" src="/BTNRIGHT.png" alt=""></a>
+        </div>
+
+        <script src="/script.js"></script>
+    </body>
+</html>
