@@ -1,0 +1,171 @@
+/*slider florian */
+::-webkit-scrollbar {
+    display: none;
+}
+
+#florian {
+
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.histoireflo {
+    font-family: Tangerine;
+    font-size: 30px;
+    color: #FF8000;
+    white-space: nowrap;
+    margin-left: 200px;
+    margin-top: 60px;
+    margin-bottom: auto;
+}
+
+
+.allcontainer {
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    overflow: auto;
+
+
+}
+
+#cardcontainer {
+
+
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    /*     
+     scroll-behavior: smooth; */
+
+
+    flex-wrap: wrap;
+    width: 100vw;
+    /* overflow-x: hidden; */
+
+    gap: 20%;
+
+}
+
+.cardAnim {
+    width: 35vw;
+    height: 60vh;
+
+    /* margin-right: 200px; */
+    position: relative;
+
+    background-color: #FDD288;
+    border-radius: 106px;
+    margin: 2%;
+
+}
+
+.fakeCard {
+    width: 450px;
+    height: 100%;
+    /* margin-right: 200px; */
+    position: relative;
+
+
+    border-radius: 106px;
+}
+
+
+/* lottie anim */
+
+lottie-player {
+
+    width: 80%;
+    margin: auto;
+
+
+
+
+}
+
+#textcard {
+
+    text-align: center;
+    width: 100%;
+
+    margin-top: 0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    position: absolute;
+
+}
+
+
+
+/* btn slider */
+.btnParent {
+    height: 100%;
+    width: 100%;
+
+
+    display: flex;
+    z-index: 9999;
+    margin-left: 30%;
+    align-items: center;
+
+
+}
+
+#btn {
+    width: 80px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    width: 90px;
+    transition: ease-in-out 0.1s;
+
+
+}
+
+#prev {}
+
+#next {}
+
+/* btn slider */
+/* .btnParent{
+     position: absolute;
+     height: 100%;
+     width: 100vw;
+ 
+     /* margin-left: 600px; */
+/* display: flex;
+     z-index: 9999; */
+/* justify-content: space-between; */
+/* align-items: center; */
+
+
+/* }
+ #btn{
+     width: 80px;
+    cursor: pointer; */
+/* }
+ #btn:hover{
+     width: 90px;
+     transition: ease-in-out 0.1s;
+ 
+    
+ }
+ #prev{
+      */
+/* display: block; */
+/* position: absolute; */
+/* margin-left: -60px; */
+/* margin-top: 220px; */
+
+
+/* }
+ #next{ */
+
+/* margin-left: 420px; */
+/* margin-top: 220px; */
+/* display: block; */
+/* position: absolute; */
